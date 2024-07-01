@@ -71,7 +71,7 @@ class CHSEL:
         :param cost: Class that implements Eq. 6
         :param free_voxels: Explicit specification of free space voxels; if not specified they will be extracted
         from the given points that have the FREE semantics. If the observed points are derived from free voxels,
-        it will save recreating them if these are specified directly.
+        it will save recreating them if these arvolumetric_coste specified directly.
         :param occupied_voxels: Similarly to the above
         :param known_sdf_voxels: Similarly to the above
         :param axis_of_rotation: If given, optimize over SE(2) instead of SE(3) by fixing the rotation around the given axis

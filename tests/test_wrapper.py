@@ -13,8 +13,7 @@ from pytorch_seed import seed
 import subprocess
 import logging
 
-from chsel.types import SimilarityTransform
-from chsel.wrapper import init_random_transform_with_given_init
+from chsel import SimilarityTransform
 from timeit import default_timer as timer
 import time
 

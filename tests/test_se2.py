@@ -8,7 +8,7 @@ import pytorch_volumetric as pv
 from pytorch_seed import seed
 import torch
 import os
-from chsel.se2 import project_onto_plane, construct_plane_basis, xyz_to_uv, uv_to_xyz
+from chsel import project_onto_plane, construct_plane_basis, xyz_to_uv, uv_to_xyz
 import matplotlib.pyplot as plt
 import open3d as o3d
 import time
