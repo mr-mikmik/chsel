@@ -61,7 +61,7 @@ def reinitialize_transform_around_elites(tsfs, rmse, elite_percentile=0.2, keep_
     B = tsfs.shape[0]
 
     # find elite tsfs
-    k = int(elite_percentile * B)
+    k = max(int(elite_percentile * B),2)
     elite_idx = np.argpartition(rmse.cpu().numpy(), k)[:k]
     elite_tsfs = tsfs[elite_idx]
 
